@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         // Code to remove toolbar if its the loginFragment/FirstFragment
         navController.addOnDestinationChangedListener { _, destination, _ ->
-            if(destination.id == R.id.FirstFragment) {
+            if(destination.id == R.id.FirstFragment || destination.id == R.id.SecondFragment) {
                 binding.toolbar.visibility = View.GONE
             } else {
                 binding.toolbar.visibility = View.VISIBLE
