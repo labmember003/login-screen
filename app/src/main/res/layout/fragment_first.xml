@@ -16,6 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:transitionName="splash_image"
         android:text="Welcome Back!"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:transitionName="splash_text"
         android:src="@drawable/login_draw"
         android:layout_gravity="center_horizontal"/>
     <EditText
